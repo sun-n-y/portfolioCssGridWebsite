@@ -487,7 +487,18 @@ Services
   background: var(--clr-white);
 }
 
-/* small screen layout setup */
+@media screen and (min-width: 676px) {
+  .service-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .service-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 /*
 =============== 
