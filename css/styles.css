@@ -257,7 +257,7 @@ Sidebar
   align-items: center; */
   place-items: center;
   transition: var(--transition);
-  /* transform: translateX(-100%); */
+  transform: translateX(-100%);
 }
 
 .sidebar-links {
@@ -308,6 +308,10 @@ Sidebar
 }
 .close-btn:hover {
   color: #e66b6b;
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 /*
