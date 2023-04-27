@@ -568,6 +568,19 @@ Projects
   opacity: 1;
 }
 
+@media screen and (min-width: 676px) {
+  .project-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .project-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 /*
 =============== 
 Connect
